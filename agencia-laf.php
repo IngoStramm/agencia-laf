@@ -8,7 +8,7 @@
  * Author URI:      https://agencialaf.com
  * Text Domain:     agencia-laf
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.1.1
  *
  * @package         Agencia_Laf
  */
@@ -37,3 +37,10 @@ function al_remove_link_dos_membros($title, $id = null)
 
     return $title;
 }
+
+require 'plugin-update-checker-4.10/plugin-update-checker.php';
+$updateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://raw.githubusercontent.com/IngoStramm/agencia-laf/master/info.json',
+    __FILE__,
+    'agencia-laf'
+);
