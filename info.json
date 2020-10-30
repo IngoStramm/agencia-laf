@@ -1,0 +1,24 @@
+{
+    "name": "Agência LAF",
+    "version": "0.1.0",
+    "download_url": "https://github.com/IngoStramm/agencia-laf/raw/master/dist/agencia-laf.zip",
+    "homepage": "https://agencialaf.com",
+    "requires": "4.7",
+    "tested": "5.5",
+    "last_updated": "2020-10-30 10:00:00",
+    "upgrade_notice": "Atualização do plugin \"Agência LAF\" disponível",
+    "author": "Ingo Stramm",
+    "author_homepage": "https://agencialaf.com",
+    "sections": {
+        "description": "Este plugin é parte integrante do ConverteFácil.",
+        "installation": "A instalação deste plugin deve ser feita pelo Converte Fácil."
+    },
+    "icons": {
+        "1x": "https://github.com/IngoStramm/agencia-laf/raw/master/assets/images/plugin-banner-128x128.jpg",
+        "2x": "https://github.com/IngoStramm/agencia-laf/raw/master/assets/images/plugin-banner-256x256.jpg"
+    },
+    "banners": {
+        "low": "https://github.com/IngoStramm/agencia-laf/raw/master/assets/images/plugin-banner-772x250.jpg",
+        "high": "https://github.com/IngoStramm/agencia-laf/raw/master/assets/images/plugin-banner-1544x500.jpg"
+    }
+}
