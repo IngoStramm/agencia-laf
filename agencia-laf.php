@@ -8,7 +8,7 @@
  * Author URI:      https://agencialaf.com
  * Text Domain:     agencia-laf
  * Domain Path:     /languages
- * Version:         0.1.1
+ * Version:         0.1.2
  *
  * @package         Agencia_Laf
  */
@@ -32,8 +32,9 @@ function al_remove_link_dos_membros($title, $id = null)
     if (!$id || is_admin()) return $title;
 
     $post_type = get_post_type($id);
-    if($post_type == 'digeco_team')
-        al_debug($title);
+
+    // if($post_type == 'digeco_team')
+    //     al_debug($title);
 
     return $title;
 }

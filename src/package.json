@@ -1,7 +1,7 @@
 {
     "name": "agencia-laf",
     "description": "Plugin do Agência LAF",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "title": "Agência LAF",
     "homepage": "https://agencialaf.com",
     "main": "Gruntfile.js",
