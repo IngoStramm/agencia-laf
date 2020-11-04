@@ -1,6 +1,6 @@
 {
     "name": "Agência LAF",
-    "version": "0.1.6", 
+    "version": "0.1.6",
     "download_url": "https://github.com/IngoStramm/agencia-laf/raw/master/dist/agencia-laf.zip",
     "homepage": "https://agencialaf.com",
     "requires": "4.7",
