@@ -8,7 +8,7 @@
  * Author URI:      https://agencialaf.com
  * Text Domain:     agencia-laf
  * Domain Path:     /languages
- * Version:         0.1.7
+ * Version:         0.1.8
  *
  * @package         Agencia_Laf
  */
@@ -25,7 +25,7 @@ function al_debug($debug)
     echo '</pre>';
 }
 
-add_filter('clean_url', 'al_defer_parsing_of_js', 11, 1);
+// add_filter('clean_url', 'al_defer_parsing_of_js', 11, 1);
 
 function al_defer_parsing_of_js($url)
 {
