@@ -8,7 +8,7 @@
  * Author URI:      https://agencialaf.com
  * Text Domain:     agencia-laf
  * Domain Path:     /languages
- * Version:         0.1.8
+ * Version:         0.1.9
  *
  * @package         Agencia_Laf
  */
@@ -39,7 +39,8 @@ add_action('wp_enqueue_scripts', 'al_frontend_scripts');
 function al_frontend_scripts()
 {
 
-    if (in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1', '10.0.0.3'))) :
+    if (in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1', '10.0.0.3', '177.189.42.53
+'))) :
         wp_enqueue_script('al-livereload', 'http://localhost:35729/livereload.js?snipver=1', array(), null, true);
     endif;
 
