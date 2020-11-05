@@ -8,7 +8,7 @@
  * Author URI:      https://agencialaf.com
  * Text Domain:     agencia-laf
  * Domain Path:     /languages
- * Version:         0.1.6
+ * Version:         0.1.7
  *
  * @package         Agencia_Laf
  */
@@ -31,8 +31,9 @@ function al_defer_parsing_of_js($url)
 {
     if (FALSE === strpos($url, '.js')) return $url;
     if (strpos($url, 'jquery.js')) return $url;
-    return "$url' defer ";
+    return "$url' defer='defer";
 }
+
 add_action('wp_enqueue_scripts', 'al_frontend_scripts');
 
 function al_frontend_scripts()
