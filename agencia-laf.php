@@ -8,7 +8,7 @@
  * Author URI:      https://agencialaf.com
  * Text Domain:     agencia-laf
  * Domain Path:     /languages
- * Version:         0.1.9
+ * Version:         0.1.10
  *
  * @package         Agencia_Laf
  */
